@@ -2,7 +2,7 @@ name: Scheduled Node Script
 
 on:
   schedule:
-    - cron: "*/25 * * * *" # каждые 30 минут (по UTC)
+    - cron: "*/14 * * * *" # каждые 14 минут (по UTC)
   workflow_dispatch: # можно запускать вручную
 
 jobs:
