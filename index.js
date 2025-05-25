@@ -1,7 +1,7 @@
 (async () => {
   try {
     const response = await fetch(
-      'https://network-leads-d5f31c95b87f.herokuapp.com/'
+      'https://leads-network.onrender.com/'
     );
     const data = await response.text();
     console.log('✅ Ответ от сервера:', data);
